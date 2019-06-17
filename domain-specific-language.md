@@ -13,18 +13,19 @@ Usually, this will look for `ls` in any of the folders in your `$PATH`, and then
 In Yeet, keywords and functions shall work like bash commands.  For instance, let's define a function:
 
 ```
-Fn myfunction:
+Def myfunction:
     ### Documentation for `myfunction`.
     # Parse parameters
     Let a: Par @Text        ### First parameter documentation.
     Let b: Par Int 0~100    ### Second parameter documentation.
     # Print out text and number on one line.
     Out message: Text a ' ' b '.'
-:myfunction
 
-fn myfunction;
+Def myfunction
 ### A function that does nothing.
 
-fn myfunction: let a: 2 + 3, "Hello, world " a "!"
+Def myfunction:
 ### A function that prints "Hello, world 5!"
+    Let a: 2 + 3
+    "Hello, world $a!"
 ```
