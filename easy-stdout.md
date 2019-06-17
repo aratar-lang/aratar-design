@@ -21,8 +21,8 @@ In order to allow usage by the REPL as a calculator, simple expressions shall pr
 > 0.5
 > {6, 1.5}
 > {4 6}
-> \[1 2 3 4\]
-> \[4 6\]
+> [1 2 3 4]
+> [4 6]
 > 0x102
 > 0b100
 > 0o10
