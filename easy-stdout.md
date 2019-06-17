@@ -15,6 +15,7 @@ In order to allow usage by the REPL as a calculator, simple expressions shall pr
 0o4 + 0o4           # Octal addition
 ```
 
+> ```
 > 4
 > Hello, world
 > 0.5
@@ -25,3 +26,4 @@ In order to allow usage by the REPL as a calculator, simple expressions shall pr
 > 0x102
 > 0b100
 > 0o10
+> ```
