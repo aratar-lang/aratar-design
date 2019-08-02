@@ -5,3 +5,5 @@ Documents explaining specific design decisions for the language, in order to hel
 - [ ] [Domain Specific Language](domain-specific-language.md)
 - [ ] [Built-In Functions](functions.md)
 - [ ] [Easy Stdout](easy-stdout.md)
+- [ ] [Muon Format Config Files](muon.md)
+- [ ] [Fast Compiles](fast-compiles.md)
