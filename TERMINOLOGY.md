@@ -111,6 +111,7 @@ describe non-comp-sci things in comp-sci are added, usually with description
  - speaker: audio output device / speaker
  - start: main, start, begin, execute (opposite: finish)
  - subset: part of a set
+ - subsystem (subsys): individual hardware component
  - superset: set that contains everything in another
  - synchronize (sync): synchronize data changes
  - synchronous (syn): thread, process, isolate, process, synchronous task
